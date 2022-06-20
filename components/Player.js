@@ -29,7 +29,7 @@ function Player({ accessToken, trackUri }) {
   return (
     <>
       {/* Free Users */}
-      <div className="bg-[#181818] flex items-center justify-between px-5 py-2.5 rounded-t-2xl relative space-x-20 md:space-x-0 overflow-x-scroll md:overflow-x-hidden scrollbar-hide">
+      {/* <div className="bg-[#181818] flex items-center justify-between px-5 py-2.5 rounded-t-2xl relative space-x-20 md:space-x-0 overflow-x-scroll md:overflow-x-hidden scrollbar-hide">
         <div className="flex items-center">
           <img
             src={playingTrack.albumUrl}
@@ -78,10 +78,10 @@ function Player({ accessToken, trackUri }) {
           </div>
           <CgArrowsExpandRight className="playerIcon" />
         </div>
-      </div>
+      </div> */}
 
       {/* Premium Users */}
-      {/* <SpotifyPlayer
+      <SpotifyPlayer
         styles={{
           activeColor: "#fff",
           bgColor: "#181818",
@@ -105,7 +105,7 @@ function Player({ accessToken, trackUri }) {
         uris={trackUri ? [trackUri] : []}
         magnifySliderOnHover={true}
         autoPlay={true}
-      /> */}
+      />
     </>
   );
 }
