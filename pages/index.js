@@ -7,6 +7,7 @@ import Loader from '../components/Loader'
 const Home = () => {
   const router = useRouter()
   const {status, data: session} = useSession({
+    required: true,
     onUnauthenticated() {
       router.push("/auth/signin")
     },

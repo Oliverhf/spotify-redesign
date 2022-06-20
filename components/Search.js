@@ -18,9 +18,9 @@ const Search = ({ search, setSearch }) => {
             <button className="tag">House</button>
             <button className="tag">Mininal</button>
         </div>
-        <div className="flex items-center space-x-1.5 text-[#cecece] pl-4">
-            <MdOutlineShortText className="text-2xl animate-pulse" />
-            <span className="font-medium text-sm">Filters</span>
+        <div className="flex items-center space-x-1.5 text-[#CECECE] pl-4">
+          <MdOutlineShortText className="text-2xl animate-pulse" />
+          <span className="font-medium text-sm">Filters</span>
         </div>
       </div>
     </div>
